@@ -1,0 +1,29 @@
+
+
+ .showcase{
+    width:600px;
+   
+     margin:0% auto; 
+    border: 5px solid rgb(139, 145, 143);
+    border-radius: 10px;
+    padding:10px;
+    background:#bea6a6;
+    overflow: hidden;
+    position:relative;
+     top:0px;
+      z-index: 100; 
+     justify-self: flex-end;
+     
+     animation: slideInFromRight 1s ease-in; 
+   } 
+   #home{
+   
+    background-image: linear-gradient(rgba(29, 4, 62, 0.089),rgba(25, 8, 85, 0)), url(../resources/images/backimg.jfif);
+     position:relative; 
+    
+    background-size: cover;
+  
+}
+  
+
+   

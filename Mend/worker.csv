@@ -1,0 +1,5 @@
+ worker_id,worker_username,first_name,last_name,worker_email,worker_pass,subcity,woreda,kebele,sex,age,phonenum,image
+22,tsyion47,Tsyion,Abebe,tsyion@gmail.com,$2y$10$skq6Tu04hC2Hp8aBvHsC4.FGT3VMtS2h3KC64eZ89GcP/SXkInVE2,bole,yeka,08,,25,0951158795,plumber4.jpg,a2f63af6b16ba4c90b7c64c54432f9a57510,,0
+21,tinady35,Tina,Dessu,tina@gmail.com,$2y$10$ropcRDV4R0nhJIHQhTKheuaqsiNnsjdFSlTxMeYJILB9ORtJlNxFO,Mexico,mekanisa,09,,25,0976894395,,1bfc640b42dab1d16a71b764dba6971b4287,,0
+20,tesnim30,Tesnim,Abdi,tesnim@gmail.com,$2y$10$wdY/2./b372l05zzgbx/oO5nJvUZiaoxLpX/SitFd1/agsyzc5j8O,bole,betel,09,,25,0951158734,,0513ab407fbd3dd8637aaa69736887344006,,0
+  

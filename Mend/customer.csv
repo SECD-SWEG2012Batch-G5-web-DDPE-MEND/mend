@@ -1,0 +1,4 @@
+ customer_id,custom_username,first_name,last_name,custom_email,custom_pass,subcity,kebele,woreda,sex,age,phonenum,image
+10,tarik20,Tarik,Misganaw,tarik@gmail.com,$2y$10$yqYs6gN4L/68iJSFwRI.lucd41znuEWXjXlqcXhz7ibvtFAPNslzW,Kirqos,shenkor,03,,21,0951154595,dishtechnician2.jpg,66e86947ca5438f13607fa7dfaa433c73622,
+9,tensae37,Tensae,Berhanu,tensae@gmail.com,$2y$10$LLAklGDCKWOAjgTturdaleFJSV/9atwmg6G3pWKsFVw0080.oq6.6,Megenagna,Germen,09,,21,0951234595,,7042081521d3c507d8f31906e1c3353f9162,
+  
