@@ -1,6 +1,31 @@
 
 <?php
  include ('../config/db.php');
+
+//social media login 
+
+$client = new Google_Client();
+$client->setClientId('');
+$client->setClientSecret('');
+$client->setRedirectUri('');
+$client->addScope('email');
+$client->addScope('profile');
+
+if (isset($_GET['code'])) {
+    $token = $client->fetchAccessTokenWithAuthCode($_GET['code']);
+    $client->setAccessToken($token['access_token']);
+
+    $google_oauth = new Google_Service_Oauth2($client);
+    $google_account_info = $google_oauth->userinfo->get();
+    $user_email = $google_account_info->getEmail();
+    $user_name = $google_account_info->getName();
+    
+}
+
+echo "<a href='" . $client->createAuthUrl() . "'>Login with Google</a>";
+
+//////
+ 
  $_check = true;
     $email=$_POST['email'];
     $pass=$_POST['password'];

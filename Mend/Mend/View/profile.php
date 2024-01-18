@@ -86,13 +86,13 @@ $db = mysqli_connect("localhost", "root", "", "menddatabase");
                     <!-- Profile picture help block-->
                     <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
                     <!-- Profile picture upload button-->
-					<form  action="../Control/image.php" id="register" class="input-group" method="POST"  enctype="multipart/form-data" >
+					<form id="register" class="input-group"  enctype="multipart/form-data" >
 
-					<input type="hidden" name="size" value="1000000" id= "images">
+					
 					<div>
-					<input type="file" name="image">
+					
 					</div>
-					<button  type="submit" name="signw" >Upload </button>
+					
 					</form>
                     
                 </div>
@@ -103,7 +103,7 @@ $db = mysqli_connect("localhost", "root", "", "menddatabase");
             <div class="card mb-4">
                 <div class="card-header">Account Details</div>
                 <div class="card-body">
-				    <form action="../Control/code.php" method="POST">
+				    <form >
                         <!-- Form Group (username)-->
                         <div class="mb-3">
                             <label style="color:gray;" class="small mb-1" for="inputUsername">Username</label>
@@ -143,7 +143,7 @@ $db = mysqli_connect("localhost", "root", "", "menddatabase");
                         </div>
 						
                         <!-- Save changes button-->
-						<button  type="submit" name="updatedataw" >Save changes</button>
+						
                     </form>
                 </div>
             </div>
