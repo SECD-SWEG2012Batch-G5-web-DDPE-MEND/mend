@@ -144,6 +144,7 @@ include ('config/indexAlert.php');
         <span class="lighting"></span>
       </div>
       <div class="input-group">
+      <a href="Control/google.php">Login with Google</a>
       <button type="submit" id="login" name="login">Login</button>
       </div>
      
