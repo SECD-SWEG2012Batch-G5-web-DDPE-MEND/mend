@@ -43,8 +43,17 @@ CREATE TABLE IF NOT EXISTS `admin_info` (
 
 --
 -- Dumping data for table `admin_info`
---
 
+--
+CREATE TABLE google_users (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  google_id varchar(255) NOT NULL,
+  name varchar(150) NOT NULL,
+  email varchar(150) NOT NULL,
+  profile_image text NOT NULL,
+  primary key (id),
+  unique key google_id (google_id)
+);
 INSERT INTO `admin_info` (`admin_id`, `admin_username`, `first_name`, `last_name`, `admin_email`, `admin_pass`, `phone_num`, `image`) VALUES
 (1, 'tensu', 'tensae', 'berhanu', 'tensae30@gmail.com', '456', '0987453421', 'Electrician1.jpg');
 
